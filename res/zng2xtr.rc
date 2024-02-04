@@ -1,0 +1,23 @@
+#include <windows.h>
+
+VS_VERSION_INFO VERSIONINFO
+	FILEVERSION 1,0,0,0
+	PRODUCTVERSION 1,0,0,0
+BEGIN
+	BLOCK "StringFileInfo"
+	BEGIN
+		BLOCK "040904E4"
+		BEGIN
+			VALUE "FileDescription", "An XTR archive application for Parappa 2 modding."
+			VALUE "FileVersion", "1.0"
+			VALUE "InternalName", "zng2xtr"
+			VALUE "OriginalFilename", "zng2xtr.exe"
+			VALUE "ProductName", "zng2xtr"
+			VALUE "ProductVersion", "1.0"
+		END
+	END
+	BLOCK "VarFileInfo"
+	BEGIN
+		VALUE "Translation", 0x409, 1252
+	END
+END
